@@ -18,6 +18,7 @@ puts "First let's print the whole file:"
 puts # a blank line
 
 print_all(current_file)
+puts # a blank line
 
 puts "Now let's rewind, kind of like a tape."
 
@@ -28,8 +29,8 @@ puts "Let's print three lines:"
 current_line = 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
-print_a_line(curent_line, current_file)
+current_line += 1
+print_a_line(current_line, current_file)

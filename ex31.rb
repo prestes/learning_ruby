@@ -33,7 +33,7 @@ elsif door == "2"
     if insanity == "1" or insanity == "2"
         puts "Your body survives powered by a mind of jello. Good job!"
     else
-        puts "The insanity rots yout eyes into a pool of muck. Good job!"
+        puts "The insanity rots your eyes into a pool of muck. Good job!"
     end
 
 else
